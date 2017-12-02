@@ -27,8 +27,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Problems <span class="sr-only">what!!</span></a></li>
-        <li><a href="#">Submissions</a></li>
+        <li class="active"><a href="<%=request.getContextPath()%>/jsp/problem.jsp">Problems <span class="sr-only">what!!</span></a></li>
+        <li class="active"><a href="#">Submissions<span class="sr-only">what!!</span></a></li>
         <li><a href="#">Rank</a></li>
         <li><a href="#">Forum</a></li>
         <li><a href="#">Contest</a></li>
@@ -54,22 +54,30 @@
   <table class="table table-hover">
      <thead>
 		  <tr>
-		     <th>ID</th>
-		     <th>USER</th>
-		     <th>PROBLEM</th>
-		     <th>SUBJECT</th>
-		     <th>HITS</th>
-		     <th>POST DATE</th>
+		     <th>編號</th>
+		     <th>身份</th>
+		     <th>題目 </th>
+		     <th>評分結果</th>
+		     <th>程式碼</th>
+		     <th>時間</th>
 		  </tr>
       </thead>     
 	  <tbody>
 	    <tr>
-	      <td>1</td>
-	      <td>she(熱血中年男子)</td>
+	      <td>000001</td>
+	      <td>lucas</td>
 	      <td>a01</td>
 	      <td>這題java怎寫</td>
-	      <td>10</td>
-	      <td>2017-10-12 17:42</td>
+	      <td>0.1</td>
+	      <td>2017-12-2 17:42</td>
+	    </tr>
+	    <tr>
+	      <td>000001</td>
+	      <td>lucas</td>
+	      <td>a02</td>
+	      <td>撲畫面用</td>
+	      <td>0.2</td>
+	      <td>2017-12-2 17:42</td>
 	    </tr>
 	  </tbody>      
   </table>

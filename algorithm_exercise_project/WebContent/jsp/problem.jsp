@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Problems <span class="sr-only">what!!</span></a></li>
-        <li><a href="#">Submissions</a></li>
+        <li class="active"><a href="<%=request.getContextPath()%>/jsp/submission.jsp">Submissions</a></li>
         <li><a href="#">Rank</a></li>
         <li><a href="#">Forum</a></li>
         <li><a href="#">Contest</a></li>
