@@ -27,9 +27,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Problems <span class="sr-only">what!!</span></a></li>
-        <li><a href="#">Submissions</a></li>
-        <li><a href="#">Rank</a></li>
+        <li><a href="<%=request.getContextPath()%>/jsp/problem.jsp">Problems</a></li>
+        <li><a href="<%=request.getContextPath()%>/jsp/submission.jsp">Submissions</a></li>
+        <li class="active"><a href="#">Rank</a></li>
         <li><a href="#">Forum</a></li>
         <li><a href="#">Contest</a></li>
       </ul>
@@ -54,23 +54,23 @@
   <table class="table table-hover">
      <thead>
 		  <tr>
+		     <th>RANK</th>
 		     <th>ID</th>
-		     <th>USER</th>
-		     <th>PROBLEM</th>
-		     <th>SUBJECT</th>
-		     <th>HITS</th>
-		     <th>POST DATE</th>
+		     <th>SCORE</th>
+
 		  </tr>
       </thead>     
 	  <tbody>
 	    <tr>
 	      <td>1</td>
 	      <td>she(熱血中年男子)</td>
-	      <td>a01</td>
-	      <td>這題java怎寫</td>
-	      <td>10</td>
-	      <td>2017-10-12 17:42</td>
+	      <td>100</td>
 	    </tr>
+	    <tr>
+	      <td>2</td>
+	      <td>Lucas</td>
+	      <td>60</td>
+	    </tr>	    
 	  </tbody>      
   </table>
 <!--  table part -->

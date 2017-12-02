@@ -27,9 +27,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="<%=request.getContextPath()%>/jsp/problem.jsp">Problems <span class="sr-only">what!!</span></a></li>
+        <li><a href="<%=request.getContextPath()%>/jsp/problem.jsp">Problems <span class="sr-only">what!!</span></a></li>
         <li class="active"><a href="#">Submissions<span class="sr-only">what!!</span></a></li>
-        <li><a href="#">Rank</a></li>
+        <li><a href="<%=request.getContextPath()%>/jsp/rank.jsp">Rank</a></li>
         <li><a href="#">Forum</a></li>
         <li><a href="#">Contest</a></li>
       </ul>
@@ -72,7 +72,7 @@
 	      <td>2017-12-2 17:42</td>
 	    </tr>
 	    <tr>
-	      <td>000001</td>
+	      <td>000002</td>
 	      <td>lucas</td>
 	      <td>a02</td>
 	      <td>¼³µe­±¥Î</td>
